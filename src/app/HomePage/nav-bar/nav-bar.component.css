@@ -5,6 +5,7 @@
 a{
   cursor: pointer;
   transition:all 0.3s;
+  font-size: 18px;
 }
 
 a:hover{
