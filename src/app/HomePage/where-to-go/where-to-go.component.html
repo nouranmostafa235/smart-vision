@@ -1,0 +1,31 @@
+
+  <div class="container">
+    <div class="title">
+      <h3 class="pt-5">WHERE TO GO</h3>
+      <p>Pick your destination and start your Egypt experience now</p>
+    </div>
+
+    <div class="slider">
+      <owl-carousel-o [options]="customOptions">
+        @for (item of items; track $index) {
+          <ng-template carouselSlide>
+            <div class="card position-relative">
+              <img [src]="item.image" class="card-img-top" style="height: 19.8rem" alt="...">
+              <div class="card-body position-absolute text-center text-white end-0 start-0 bottom-0">
+                <h4 class="city">
+                  {{ item.city }}
+                </h4>
+                <p class="hours">
+                  {{ item.hours }}
+                </p>
+              </div>
+            </div>
+          </ng-template>
+        }
+      </owl-carousel-o>
+    </div>
+  </div>
+
+
+
+

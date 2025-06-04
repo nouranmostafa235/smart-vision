@@ -1,0 +1,25 @@
+.title h3{
+  font-size: 36px;
+  color: rgb(29, 41, 63);
+  font-family: Prata, sans-serif;
+  font-weight: 400;
+}
+.title p{
+  font-size: 16px;
+  font-family: Noto Sans,sans-serif;
+  color: rgb(33, 37, 41);
+}
+
+
+.card:hover img{
+  transform: scale(1.4);
+}
+
+.card{
+  cursor: pointer;
+  overflow: hidden;
+}
+
+img{
+  transition: transform 1s;
+}

@@ -1,0 +1,45 @@
+<div class="footer mt-5">
+   <div class="container pt-5 d-flex justify-content-evenly align-items-stretch">
+     <div class="text-white">
+       <h2 class="mb-4">Our Services</h2>
+       <ul class="list-unstyled">
+         @for (item of items[1].items; track $index) {
+           <li class="list">{{item.itemName}}</li>
+         }
+       </ul>
+     </div>
+     <div class="text-white">
+       <h2 class="mb-4">Destinations</h2>
+       <ul class="list-unstyled">
+         @for (item of items[0].items; track $index) {
+           <li class="list">{{item.itemName}}</li>
+         }
+       </ul>
+     </div>
+     <div class="text-white">
+       <h2 class="mb-4">About Us</h2>
+       <ul class="list-unstyled">
+         <li class="list">About ExploreEra</li>
+         <li class="list">ExploreEra News</li>
+         <li class="list">International Offices</li>
+         <li class="list">Branches</li>
+         <li class="list">Destination Handbook</li>
+         <li class="list">Testimonials</li>
+       </ul>
+     </div>
+     <div class="text-white">
+       <h2 class="mb-4">Contacts</h2>
+       <ul class="list-unstyled">
+         <li class="text-white mb-4"><i class="fa-solid fa-phone me-2"></i> 000-000-000</li>
+         <li class="text-white mb-4"><i class="fa-solid fa-envelope me-2"></i> exploreEra&#64;gmail.com</li>
+         <li class="text-white mb-4"><i class="fa-solid fa-location-dot me-2"></i>ExploreEra, Fifth Settlement, Cairo, Egypt </li>
+       </ul>
+       <div class="d-flex justify-content-evenly mt-5">
+         <i class="fa-brands fa-facebook-f fa-xl"></i>
+         <i class="fa-brands fa-x-twitter fa-xl"></i>
+         <i class="fa-brands fa-instagram fa-xl"></i>
+         <i class="fa-brands fa-linkedin-in fa-xl"></i>
+       </div>
+     </div>
+   </div>
+</div>

@@ -1,0 +1,15 @@
+.subscribe{
+  background-image: url("/assets/footer/subscribe.webp");
+  background-size: cover;
+  height: 126px;
+  margin-top: 40px;
+}
+
+.btn{
+  background-color: rgb(230,0,0);
+  color: white;
+}
+
+h2{
+  font-family: Prata ,serif;
+}

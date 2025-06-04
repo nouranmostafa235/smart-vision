@@ -1,0 +1,32 @@
+.title h3{
+  font-size: 36px;
+  color: rgb(29, 41, 63);
+  font-family: Prata, sans-serif;
+  font-weight: 400;
+}
+.title p{
+  font-size: 16px;
+  font-family: Noto Sans,sans-serif;
+  color: rgb(33, 37, 41);
+}
+
+.card-body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  pointer-events: none;
+}
+
+.card:hover .card-body {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.card{
+  cursor: pointer;
+}

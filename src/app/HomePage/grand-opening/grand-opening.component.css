@@ -1,0 +1,51 @@
+img{
+  width: 100%;
+}
+.opening{
+  margin-top: 40px;
+}
+.title{
+  width: 25%;
+  top:30%;
+  left:3%;
+}
+
+h2{
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 500;
+  font-family: "Noto Sans", sans-serif;
+}
+h1{
+  font-family: "Noto Sans", sans-serif;
+}
+
+.countdown {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.time-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 1rem;
+}
+
+.box {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+  min-width: 80px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.box span {
+  font-size: 2rem;
+  display: block;
+}
+
+.box small {
+  font-size: 0.8rem;
+  color: #666;
+}

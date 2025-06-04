@@ -1,0 +1,27 @@
+<div id="carouselExampleAutoplaying" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    @for (slide of sliders; track $index) {
+      <button type="button" data-bs-target="#carouselExampleAutoplaying"  [attr.data-bs-slide-to]="$index"
+              [ngClass]="{ active: $index === 0 }"
+              [attr.aria-current]="$index === 0 ? 'true' : null" [attr.aria-label]="'Slide ' + ($index + 1)"></button>
+    }
+  </div>
+
+  <div class="carousel-inner">
+    @for (slide of sliders; track $index) {
+      <div class="carousel-item " [ngClass]="{ active: $index === 0 }" data-bs-interval="8000">
+        <div class="position-relative">
+          <img [src]="slide.image" class="d-block w-100" alt="slide">
+          <div class="layer position-absolute top-0 bottom-0 end-0 start-0"></div>
+        </div>
+        <div class="carousel-caption custom-caption">
+          <h2>{{ slide.title }}</h2>
+          <p *ngFor="let sentence of slide.description.split('. ')">
+            {{ sentence }}.
+          </p>
+          <button class="btn text-white btn-lg px-4">{{slide.buttonTitle}}</button>
+        </div>
+      </div>
+    }
+  </div>
+</div>

@@ -1,0 +1,134 @@
+{
+      "mainSliderItems": [
+        {
+          "image": "assets/main-slider/slider1.jpg",
+          "title": "Journey Through the Time",
+          "description": "Sail the Majestic Nile River aboard our Nile Cruises",
+          "buttonTitle": "Explore Now"
+        },
+        {
+          "image": "assets/main-slider/slider2.jpg",
+          "title": "Seamless Travel Experiences.",
+          "description": "Elevating Travel Experiences with our Diverse Fleet in Egypt",
+          "buttonTitle": "Explore Now"
+        },
+        {
+          "image": "assets/main-slider/slider3.jpg",
+          "title": "Unlock the Treasures of Egypt",
+          "description": "Unveiling Ancient Wonders and Timeless Beauty. A Journey through Time and Tranquility",
+          "buttonTitle": "Explore Now"
+        },
+        {
+          "image": "assets/main-slider/slider4.jpg",
+          "title": "Secure Your Stay with Ease",
+          "description": "Find Your Ideal Accommodation in Egypt",
+          "buttonTitle": "Explore Now"
+        },
+        {
+          "image": "assets/main-slider/slider5.webp",
+          "title": "Travel Smart with eSIM",
+          "description": "Stay connected, wherever you travel, at affordable rates",
+          "buttonTitle": "Book Now"
+        }
+      ],
+      "whereToGoSlider": [
+        {
+          "image": "assets/where-to-go/cairo.jpg",
+          "city": "Cairo",
+          "hours": "5 Hours"
+        },
+        {
+          "image": "assets/where-to-go/alex.jpg",
+          "city": "Alexandria",
+          "hours": "7 Hours"
+        },
+        {
+          "image": "assets/where-to-go/aswan.jpg",
+          "city": "Aswan",
+          "hours": "10 Hours"
+        },
+        {
+          "image": "assets/where-to-go/luxor.jpg",
+          "city": "Luxor",
+          "hours": "11 Hours"
+        },
+        {
+          "image": "assets/where-to-go/sharm-elshekh.jpg",
+          "city": "Sharm-Elsheikh",
+          "hours": "8 Hours"
+        }
+
+      ],
+      "whatToDoSlider": [
+        {
+          "image": "assets/what-to-do/slide1.jpg",
+          "title": "MUSEUMS"
+        },
+        {
+          "image": "assets/what-to-do/slide2.jpg",
+          "title": "CRUISING & SAILING"
+        },
+        {
+          "image": "assets/what-to-do/slide3.jpeg",
+          "title": "ECOTOURISM & NATURE"
+        },
+        {
+          "image": "assets/what-to-do/slide4.jpeg",
+          "title": "HEALTH & WELLNESS"
+        },
+        {
+          "image": "assets/what-to-do/slide5.jpg",
+          "title": "ARCHEOLOGICAL SITES"
+        },
+        {
+          "image": "assets/what-to-do/slid6.jpg",
+          "title": "SUN & SEA"
+        }
+  ],
+      "dropDowns": [
+        {
+          "title": "Destinations",
+          "items" : [
+            {
+              "itemName": "Cairo"
+            },
+            {
+              "itemName": "Alex"
+            },
+            {
+              "itemName": "Aswan"
+            },
+            {
+              "itemName": "Luxor"
+            },
+            {
+              "itemName": "Marsa Alm"
+            }
+          ]
+        },
+        {
+          "title": "Services",
+          "items" : [
+            {
+              "itemName": "Destination Guide"
+            },
+            {
+              "itemName": "Packages"
+            },
+            {
+              "itemName": "Hotels"
+            },
+            {
+              "itemName": "Day Trips & Excursions"
+            },
+            {
+              "itemName": "MICE"
+            },
+            {
+              "itemName": "Fast Track & AirPort Transfer"
+            }
+          ]
+        }
+      ]
+}
+

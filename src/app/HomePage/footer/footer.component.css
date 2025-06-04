@@ -1,0 +1,26 @@
+.footer {
+  background-color: rgb(0,0,0);
+}
+.list{
+  color:rgb(94, 94, 94);
+  font-size: 18px;
+  font-family: "Noto Sans", sans-serif;
+  transition: all 0.4s;
+  margin-bottom: 15px;
+}
+.list:hover{
+  color:rgb(340, 0,0);
+  cursor: pointer;
+}
+h2{
+  font-size: 28px;
+  font-family: Prata , serif;
+  font-weight: 400;
+}
+.fa-brands{
+  transition: all 0.4s;
+}
+.fa-brands:hover {
+  color: rgb(340, 0,0);
+  cursor: pointer;
+}

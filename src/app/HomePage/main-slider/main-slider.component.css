@@ -1,0 +1,29 @@
+.custom-caption {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  text-align: left;
+  padding: 1rem;
+  color: white;
+  max-width: 50%;
+}
+.custom-caption h2 {
+  font-size: 42px;
+  font-weight: 600;
+  font-family: Prata, serif;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+.custom-caption p {
+  font-family: Noto Sans, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+}
+.layer{
+  background-color: rgba(0,0,0,.4);
+}
+.btn{
+  background-color: rgb(230,0,0);
+}

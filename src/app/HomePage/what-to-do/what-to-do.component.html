@@ -1,0 +1,31 @@
+
+<div class="container mt-5">
+  <div class="title">
+    <h3 class="pt-5">WHAT TO DO</h3>
+    <p>Experience what Egypt has to offer</p>
+  </div>
+
+  <div class="slider">
+    <owl-carousel-o [options]="customOptions">
+      @for (item of items; track $index) {
+        <ng-template carouselSlide>
+          <div class="card">
+            <div class="card">
+              <img [src]="item.image" class="card-img-top" style="height: 19.8rem" alt="...">
+            </div>
+            <div class="card-body text-center">
+              <h4 class="city">
+                {{ item.title }}
+              </h4>
+            </div>
+          </div>
+
+        </ng-template>
+      }
+    </owl-carousel-o>
+  </div>
+</div>
+
+
+
+

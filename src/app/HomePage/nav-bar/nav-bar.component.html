@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-lg py-3 fixed-top bg-transparent" id="nav">
+  <div class="container">
+    <a class="navbar-brand text-white"><i class="fa-solid fa-earth-oceania"></i>
+      ExploreEra</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav  gap-5 mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page">Home</a>
+        </li>
+        @for (dropdown of dropdowns; track $index) {
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              {{ dropdown.title }}
+            </a>
+            <ul class="dropdown-menu">
+              @for (item of dropdown.items; track $index) {
+                <li><a class="dropdown-item ">{{ item.itemName }}</a></li>
+              }
+            </ul>
+          </li>
+        }
+      </ul>
+      <button class="btn text-white">Login <i class="fa-solid fa-arrow-right-to-bracket ms-1"></i></button>
+    </div>
+  </div>
+</nav>
